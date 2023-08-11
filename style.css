@@ -382,7 +382,7 @@ main {
   .contact-btn {
     width: 30%;
   }
-  .register {
+  .register, .login {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -390,10 +390,29 @@ main {
     gap: 3rem;
     min-height: 60vh;
   }
-  .register .card {
+  .register .card, .login .card  {
     width: 45rem;
   }
   /* registration ends here  */
+
+  /* contact starts here  */
+   .contact-section {
+    min-height: 52vh;
+    padding: var(--padding);
+   }
+   .contact-container {
+    margin-top: 5rem;
+   }
+   .contact-address {
+    flex-direction: column;
+    gap: 2rem;
+    flex: 1;
+   }
+   .contact__map {
+    width: 80%;
+   }
+
+  /* contact ends here  */
 
 /* main ends here */
 
@@ -423,6 +442,26 @@ main {
     .cart__items,
     .cart__payment {
       width: 90;
+    }
+
+    .form {
+      width: 100%;
+      gap: 0rem;
+    }
+    .form-control {
+      width: 100%;
+    }
+    .form-control input,
+    textarea {
+      width: 80%;
+    }
+
+    .register .card,
+    .login .card {
+      width: 90%;
+    }
+    .contact-address {
+      width: 100%;
     }
 }
 @media (max-width: 768px) {
