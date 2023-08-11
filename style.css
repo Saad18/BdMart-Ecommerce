@@ -335,6 +335,66 @@ main {
   }
   /* add to cart ends here  */
 
+  /* profile starts here  */
+  .profile {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .profile .card {
+    flex-direction: column;
+    width: 30rem;
+    padding: var(--padding);
+    gap: 1rem;
+  }
+  .profile__img {
+    width: 15vw;
+    border-radius: 50%;
+    border: 1px solid;
+  }
+  .profile__buttons button {
+    background-color: transparent;
+  }
+  /* profile ends here  */
+
+  /* registration starts here  */
+  .form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .form-control label {
+    flex: 0.1;
+    text-align: left;
+  }
+  .form-control input, textarea {
+    flex: 0.9;
+    padding: var(--padding);
+    border: 1px solid;
+  }
+  .form-control textarea {
+    resize: none;
+    height: 12vh;
+  }
+  .form-btn-field {
+    border-radius: var(--border-radius);
+  }
+  .contact-btn {
+    width: 30%;
+  }
+  .register {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    min-height: 60vh;
+  }
+  .register .card {
+    width: 45rem;
+  }
+  /* registration ends here  */
+
 /* main ends here */
 
 /* responsiveness starts here */
